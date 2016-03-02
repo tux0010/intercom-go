@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/intercom/intercom-go/interfaces"
+	"github.com/katepdonahue/intercom-go/interfaces"
 )
 
 // ContactRepository defines the interface for working with Contacts through the API.
