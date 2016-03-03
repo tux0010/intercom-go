@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/katepdonahue/intercom-go/interfaces"
+	"github.com/intercom/intercom-go/interfaces"
 )
 
 func TestEventAPISave(t *testing.T) {

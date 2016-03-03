@@ -3,7 +3,7 @@ package intercom
 import (
 	"encoding/json"
 
-	"github.com/katepdonahue/intercom-go/interfaces"
+	"github.com/intercom/intercom-go/interfaces"
 )
 
 // AdminRepository defines the interface for working with Admins through the API.
