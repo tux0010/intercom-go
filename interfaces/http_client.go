@@ -154,7 +154,7 @@ type IntercomError interface {
 func (c IntercomHTTPClient) parseResponseError(data []byte, statusCode int) IntercomError {
 	errorList := HTTPErrorList{}
 	err := json.Unmarshal(data, &errorList)
-	if err != nil {
+	if err != nil || len(errorList.Errors) {
 		return NewUnknownHTTPError()
 	}
 	httpError := errorList.Errors[0]
